@@ -1,0 +1,58 @@
+/********************************************************************
+* GERAL
+*********************************************************************/
+body {
+	font-family: sans-serif;
+}
+
+/********************************************************************
+* CONTAINER
+*********************************************************************/
+.container{
+	margin: 0 auto;
+	max-width: 960px;
+}
+
+/********************************************************************
+* MAIN-HEADER
+*********************************************************************/
+.main-header .container {
+	position: relative;
+}
+
+.logo {
+	width: 310px;
+	height: 86px;
+}
+
+/********************************************************************
+* MAIN-NAV
+*********************************************************************/
+.main-nav{
+	position: absolute;
+	right: 0;
+}
+
+.main-nav-link {
+	color: #000000;
+	font-weight: bold;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.main-nav-link:hover {
+		border-top: 5px solid #990000;
+}
+
+.main-nav-links {
+	list-style: none;
+	overflow: hidden;
+}
+
+.main-nav-item {
+	float: left;
+}
+
+.main-nav-link.current {
+	
+}
