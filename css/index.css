@@ -15,7 +15,7 @@ body ul {
 /********************************************************************
 * CONTAINER
 *********************************************************************/
-.container{
+.container {
 	margin: 0 auto;
 	max-width: 960px;
 }
@@ -29,8 +29,12 @@ body ul {
 }
 
 .logo {
-	width: 310px;
+	width: 301px;
 	height: 86px;
+	display: inline-block;
+	text-indent: -99999px;
+	background-image: url(../img/ico/logo.png); 
+	
 }
 
 /********************************************************************
@@ -120,7 +124,7 @@ a,img {border: none;}
 span {background: #FF0D40; cursor: pointer; opacity: 0;filter:alpha(opacity=0); position: absolute; bottom: 40%; width: 43px; height: 43px; z-index: 5;}
 
 .next {right: 300px;}
-.next:hover {background: rgba(255,255,255,.5)}
+.next:hover {background: rgba(255,255,255,.0)}
 
 .next:before,.next:after {left: 21px;}
 
@@ -143,7 +147,7 @@ span {background: #FF0D40; cursor: pointer; opacity: 0;filter:alpha(opacity=0); 
 }
 
 .prev {left: 300px;}
-.prev:hover {background: rgba(255,255,255,.5)}
+.prev:hover {background: rgba(255,255,255,.0)}
 
 .prev:before,.prev:after {left: 18px;}
 .prev:before {
@@ -246,10 +250,8 @@ section p {
 	background-color: #FF0D40;
 	color: #f2fffc;
 	width: 100%;
-	/*padding: 30px;*/
-/*	position: fixed;
-	bottom: 0;*/
-
+  position: relative;
+  float: left;
 }
 
 footer {
@@ -257,3 +259,10 @@ footer {
 	clear: both;	
 }
 
+.autorais-footer {
+	padding-top: 	13px;
+} 
+
+.menu_footer {
+	padding-left: 10px;
+}
