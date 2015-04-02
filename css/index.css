@@ -263,6 +263,25 @@ footer {
 	padding-top: 	13px;
 } 
 
-.menu_footer {
-	padding-left: 10px;
+.menu-footer {
+	/*text-transform: uppercase;	*/
+}
+
+.menu-footer a {
+	text-decoration: none;
+	color: 	#fff;
+}
+
+.menu-footer-links:hover {
+	color: #000;
+}
+
+.criador {
+	width: 73px;	
+	height: 57px;	
+}
+
+.criador:hover {
+	border: solid 1px;
+	color: 	#FF0D40;
 }
